@@ -1,0 +1,11 @@
+# Build results
+[Bb]in/
+[Bb]in-int/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Visual Studio files and folder
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
