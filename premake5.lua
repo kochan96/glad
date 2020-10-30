@@ -3,6 +3,7 @@ project "Glad"
     language "C"
     staticruntime "on"
     
+    outputDir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
     targetdir ("bin/" .. outputDir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputDir .. "/%{prj.name}")
 
